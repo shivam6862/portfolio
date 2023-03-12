@@ -1,0 +1,27 @@
+.error_number {
+  font-size: 15rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgb(246, 87, 87);
+}
+.error_reason {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+  color: rgb(246, 87, 87);
+}
+.error_des {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0;
+  margin: 0px 0px 20px 0px;
+  color: #252424;
+}
+@media (max-width: 768px) {
+  .error_number {
+    font-size: 10rem;
+  }
+}
