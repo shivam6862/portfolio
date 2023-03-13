@@ -1,0 +1,94 @@
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(/name.jpg) no-repeat fixed center/cover;
+  height: 80vh;
+}
+
+.row {
+  padding: 1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+.name {
+  font-size: 6vw;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  text-shadow: 1px 3px 11px rgb(0 0 0 / 30%);
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+}
+
+.welcome {
+  stroke-dasharray: 9541.93, 9541.93;
+  stroke-dashoffset: 7156;
+  transition: fill 1s ease-in-out 0s;
+  stroke: #ffd400;
+  fill: #ff40d6;
+  padding-top: 2rem;
+}
+
+.circle {
+  content: "  ";
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  animation: slide 6s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  box-shadow: inset 0 0 30px 0 #fff, inset 20px 0 30px #ffd400,
+    inset -20px 0 30px red, inset 20px 0 300px #ff40d6,
+    inset -20px 0 300px #e3ff4b, 0 0 50px #fff, -10px 0 100px #fbff00,
+    10px 0 80px #f55;
+  position: absolute;
+  top: 23%;
+  left: 56%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(3px);
+  }
+
+  12.5% {
+    transform: translate(-6px);
+  }
+
+  25% {
+    transform: translate(6px);
+  }
+
+  37.5% {
+    transform: translate(-6px);
+  }
+
+  50% {
+    transform: translate(6px);
+  }
+
+  67.5% {
+    transform: translate(-6px);
+  }
+
+  75% {
+    transform: translate(6px);
+  }
+
+  87.5% {
+    transform: translate(-6px);
+  }
+
+  100% {
+    transform: translate(3px);
+  }
+}
