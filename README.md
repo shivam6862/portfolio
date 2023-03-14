@@ -1,6 +1,6 @@
 ### Install
 
-To build and test you will need to install [foundry](https://github.com/shivam6862/Quiz-App).  After installing simple run
+To build and test you will need to install [foundry](https://github.com/shivam6862/portfolio).  After installing simple run
 
 ```sh
 npm install
