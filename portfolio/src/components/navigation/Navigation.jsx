@@ -102,7 +102,7 @@ const Navigation = () => {
                   setIsNavExpanded(false);
                 }}
               >
-                Language Know
+                Language
               </a>
             </li>
             <li>

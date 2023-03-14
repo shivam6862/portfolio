@@ -125,7 +125,7 @@
   background-color: #233554;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .hamburger {
     display: block;
     z-index: 210;
@@ -136,13 +136,13 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .navigationmenu ul {
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .navigationmenuexpanded ul {
     position: absolute;
     top: 67px;
@@ -204,13 +204,13 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .navigationmenu ul {
     display: none;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .navigationmenuexpanded ul {
     display: block;
   }

@@ -122,3 +122,22 @@
 .button {
   padding-top: 8px;
 }
+
+@media (max-width: 650px) {
+  .row {
+    padding: 0;
+  }
+  .working {
+    padding: 0;
+    margin: 0;
+  }
+  .works {
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-width: 440px) {
+  .texting {
+    font-size: 20px;
+  }  
+}

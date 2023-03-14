@@ -2,20 +2,20 @@ import React from "react";
 
 const cards = [
   {
-    website: "Almighty Crafters",
-    src: "/almighty.png",
-    webSiteName:
-      "This web app is a showcase of digital arts made from designers of budding startup Almighty Crafters",
-    userId: "Language used: React",
-    websiteLink: "https://github.com/shivam6862/AlmightyCrafters.github.io",
-  },
-  {
     website: "FormFrenzy App",
     src: "/QuizApp.png",
     webSiteName:
       "FormFrenzy is a complete form solutions enabling users to create forms, quizzes, etc for multiple users, and handle them efficiently by our site",
     userId: "Language used: React and NodeJs",
     websiteLink: "https://github.com/shivam6862/Quiz-App",
+  },
+  {
+    website: "Almighty Crafters",
+    src: "/almighty.png",
+    webSiteName:
+      "This web app is a showcase of digital arts made from designers of budding startup Almighty Crafters",
+    userId: "Language used: React",
+    websiteLink: "https://github.com/shivam6862/AlmightyCrafters.github.io",
   },
   {
     website: "White Typer",

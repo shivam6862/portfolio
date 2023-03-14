@@ -93,3 +93,12 @@
     transform: translate(3px);
   }
 }
+
+@media (max-width: 330px) {
+  .name {
+    font-size: 4vw;
+  }
+  .nameeffect {
+    font-size: 4vw;
+  }
+}

@@ -6,7 +6,7 @@ const Last = () => {
   const date1 = new Date();
   const DATE = date1.getFullYear();
   const [date, setDate] = useState(DATE);
-  
+
   return (
     <div className={classes.last} id="last">
       <div className={classes.container_fluid}>
@@ -14,19 +14,34 @@ const Last = () => {
           <div className={classes.col}>
             <ul className={classes.nav}>
               <li className={classes.nav_item}>
-                <div className={classes.nav_link}>Name</div>
+                <a className={classes.nav_link} href="#name">
+                  Name
+                </a>
               </li>
               <li className={classes.nav_item}>
-                <div className={classes.nav_link}>About me</div>
+                <a className={classes.nav_link} href="#about">
+                  About me
+                </a>
               </li>
               <li className={classes.nav_item}>
-                <div className={classes.nav_link}>Language and Platform</div>
+                <a className={classes.nav_link} href="#language">
+                  Language
+                </a>
               </li>
               <li className={classes.nav_item}>
-                <div className={classes.nav_link}>Work</div>
+                <a className={classes.nav_link} href="#Platform">
+                  Platform
+                </a>
               </li>
               <li className={classes.nav_item}>
-                <div className={classes.nav_link}>Contact</div>
+                <a className={classes.nav_link} href="#work">
+                  Work
+                </a>
+              </li>
+              <li className={classes.nav_item}>
+                <a className={classes.nav_link} href="#contact">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

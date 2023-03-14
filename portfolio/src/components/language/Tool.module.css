@@ -71,3 +71,9 @@
   font-weight: 700;
   text-transform: capitalize;
 }
+
+@media (max-width: 420px) {
+  .row {
+    padding: 0;
+  }
+}

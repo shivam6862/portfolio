@@ -13,7 +13,7 @@ const Language = () => {
             <div className={classes.tool}>
               <Tool />
             </div>
-            <div className={classes.card}>
+            <div className={classes.card} id="Platform">
               <Card />
             </div>
           </div>
