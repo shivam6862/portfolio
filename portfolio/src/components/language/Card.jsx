@@ -1,36 +1,9 @@
 import React from "react";
 import classes from "./Card.module.css";
 import Button from "../ui/Button";
+import cards from "../dataToBeRender/CardData";
 
 const Card = () => {
-  const cards = [
-    {
-      website: "Codeforces coding",
-      src: "/codeforces.png",
-      src2: "/codeforces1.png",
-      language: "Competitive coding",
-      webSiteName: "Codeforces",
-      userId: "1_Shivam",
-      websiteLink: "https://codeforces.com/profile/1_shivam",
-    },
-    {
-      website: "Leetcode coding",
-      src: "/leetcode.png",
-      language: "Data structures and algorithms",
-      webSiteName: "Leetcode",
-      userId: "1_Shivam",
-      websiteLink: "https://leetcode.com/1_shivam/",
-    },
-    {
-      website: "Github",
-      src: "/github.png",
-      language: "Source code",
-      webSiteName: "Github",
-      userId: "shivam6862",
-      websiteLink: "https://github.com/shivam6862",
-    },
-  ];
-
   return (
     <div className={classes.completecard}>
       <div className={classes.popular_books}>

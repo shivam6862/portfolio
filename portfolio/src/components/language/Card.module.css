@@ -40,6 +40,7 @@
 .img_fluid {
   width: 100%;
   height: 100%;
+  border-radius: 6px;
 }
 
 .card_footer {
@@ -64,9 +65,7 @@
 
 .back_content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 1rem;
 }
 
 .rotate:hover .book_card {
@@ -81,12 +80,12 @@
 }
 
 .texting {
-  padding: 1rem;
+  padding: 1rem 1rem 0.2rem 0.3rem;
   font-size: 28px;
 }
 
 .about {
-  padding: 1rem;
+  padding: 0.3rem;
   font-size: 24px;
 }
 .button {

@@ -50,3 +50,19 @@
 .nav_item {
   list-style: none;
 }
+
+@media (max-width: 600px) {
+  .nav {
+    gap: 0.3rem;
+    font-size: 16px;
+
+    text-decoration: none;
+  }
+  .nav_link {
+    letter-spacing: 0px;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
+

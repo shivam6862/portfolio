@@ -26,7 +26,7 @@ const Navigation = () => {
   return (
     <div className={classes.positionfixed}>
       <nav className={classes.navigation}>
-        <div id="/" className={classes.active}>
+        <div id="/" className={classes.active1}>
           <div className={classes.logo}>
             <img src="/logo.jpg" alt="logo"></img>
           </div>
@@ -73,59 +73,59 @@ const Navigation = () => {
               </div>
             </li>
             <li>
-              <div
-                id="name"
+              <a
+                href="#name"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
                 Name
-              </div>
+              </a>
             </li>
             <li>
-              <div
-                id="about"
+              <a
+                href="#about"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
                 About
-              </div>
+              </a>
             </li>
             <li>
-              <div
-                id="language"
+              <a
+                href="#language"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
                 Language Know
-              </div>
+              </a>
             </li>
             <li>
-              <div
-                id="work"
+              <a
+                href="#work"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
                 Work
-              </div>
+              </a>
             </li>
             <li>
-              <div
-                id="contact"
+              <a
+                href="#contact"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
                 Contact
-              </div>
+              </a>
             </li>
           </ul>
         </div>

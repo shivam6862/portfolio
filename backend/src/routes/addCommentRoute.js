@@ -5,8 +5,11 @@ module.exports = addCommentRoute = {
   path: "/comment",
   handler: async (req, res) => {
     const data = req.body;
-    const comment = data.comment;
-    const response = await insertComment(comment);
+    const name = data.name;
+    const emailValue = data.emailValue;
+    const message = data.message;
+    console.log(name, emailValue, message);
+    const response = await insertComment({ name, emailValue, message });
     res.status(200).json(response);
   },
 };

@@ -5,7 +5,7 @@ import Tool from "./Tool";
 
 const Language = () => {
   return (
-    <div className={classes.col}>
+    <div className={classes.col} id="language">
       <div className={classes.row}>
         <div className={classes.language}>
           <div className={classes.heading}>Language and Platform Used</div>

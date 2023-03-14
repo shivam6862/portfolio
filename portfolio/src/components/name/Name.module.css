@@ -5,7 +5,7 @@
   padding: 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(/name.jpg) no-repeat fixed center/cover;
-  height: 80vh;
+  height: 90vh;
 }
 
 .row {
@@ -22,22 +22,23 @@
 }
 
 .name {
-  font-size: 6vw;
+  font-size: 5vw;
   color: white;
-  text-transform: uppercase;
   letter-spacing: 2.2px;
   text-shadow: 1px 3px 11px rgb(0 0 0 / 30%);
-  font-family: "Poppins", Sans-serif;
   font-weight: 600;
+  padding-bottom: 2rem;
 }
 
-.welcome {
-  stroke-dasharray: 9541.93, 9541.93;
-  stroke-dashoffset: 7156;
-  transition: fill 1s ease-in-out 0s;
-  stroke: #ffd400;
-  fill: #ff40d6;
-  padding-top: 2rem;
+.nameeffect {
+  font-size: 5vw;
+  color: white;
+  letter-spacing: 2.2px;
+  text-shadow: 1px 3px 11px rgb(0 0 0 / 30%);
+  font-weight: 600;
+  height: 7vw;
+  padding-right: 0.3rem;
+  border-right: 2px solid white;
 }
 
 .circle {

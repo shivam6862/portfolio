@@ -1,9 +1,9 @@
 const getDb = require("./db").getDb;
 
-module.exports = insertComment = async (comment) => {
+module.exports = insertComment = async ({ name, emailValue, message }) => {
   const connection = await getDb();
   const { insertedId } = await connection
     .collection("comment")
-    .insertOne({ comment: comment });
+    .insertOne({ name: name, emailValue: emailValue, message: message });
   return insertedId;
 };

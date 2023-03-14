@@ -62,6 +62,8 @@
 .box_icon .icon {
   height: 30px;
   width: 30px;
+  border-radius: 4px;
+  padding: 2px;
 }
 
 .box-text {
