@@ -1,10 +1,10 @@
 ### Install
 
-To build and test you will need to install [github](https://github.com/shivam6862/portfolio). After installing simple run
+To build and test you will need to install [foundry](https://github.com/shivam6862/portfolio). After installing simple run
 
 ```sh
 npm install
-make build
+npm start
 ```
 
 to compile the code.
@@ -26,6 +26,6 @@ Feel free to fork this project and make your own portfolio website.
 
 ## Team:
 
-member: (https://github.com/shivam6862) having fun.
+member: [member](https://github.com/shivam6862) having fun.
 
 ## link
