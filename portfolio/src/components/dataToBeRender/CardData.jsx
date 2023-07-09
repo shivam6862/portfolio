@@ -1,10 +1,8 @@
-import React from "react";
-
 const cards = [
   {
     website: "Codeforces",
-    src: "/codeforces.png",
-    src2: "/codeforces1.png",
+    src: "/platfrom/codeforces.png",
+    src2: "/platfrom/codeforces1.png",
     language: "Competitive coding",
     webSiteName: "Codeforces",
     userId: "You can view my profile here..",
@@ -12,8 +10,8 @@ const cards = [
   },
   {
     website: "Leetcode",
-    src: "/leetcode.png",
-    src2: "/leetcode1.png",
+    src: "/platfrom/leetcode.png",
+    src2: "/platfrom/leetcode1.png",
     language: "Data structures and algorithms",
     webSiteName: "Leetcode",
     userId: "You can view my profile here..",
@@ -21,11 +19,20 @@ const cards = [
   },
   {
     website: "Github",
-    src: "/github.png",
+    src: "/platfrom/github.png",
+    src2: "/platfrom/github1.png",
     language: "Source code",
     webSiteName: "Github",
     userId: "You can view my profile here..",
     websiteLink: "https://github.com/shivam6862",
+  },
+  {
+    website: "Codechef",
+    src: "/platfrom/codechef.png",
+    language: "Competitive coding",
+    webSiteName: "Codechef",
+    userId: "You can view my profile here..",
+    websiteLink: "https://www.codechef.com/users/shivam_123kr",
   },
 ];
 

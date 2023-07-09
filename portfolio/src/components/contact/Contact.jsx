@@ -9,30 +9,40 @@ const Contact = () => {
   const [error, setError] = useState("");
 
   const SubmitComment = async () => {
-    console.log("Submitted the Question!");
     var validEmail =
       /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (emailValue.trim() == "" || message.trim() == "" || name.trim() == "") {
-      setError("Fill the email and password and message..");
+      setError("Fill the email and name and message..");
+      setTimeout(() => {
+        setError("");
+      }, 2000);
       return;
     }
     if (emailValue.match(validEmail)) {
       setError("");
     } else {
+      setTimeout(() => {
+        setError("");
+      }, 2000);
       setError("Fill the correct email..");
       return;
     }
     setError("");
 
-    const response = await postWithCredentials(
-      `${import.meta.env.VITE_REACT_BACKEND_URL}/comment`,
-      { name, emailValue, message }
+    // const response = await postWithCredentials(
+    //   `${import.meta.env.VITE_REACT_BACKEND_URL}/comment`,
+    //   { name, emailValue, message }
+    // );
+    // const newGroupId = await response.json();
+    const emailSubject = encodeURIComponent("Contact Form Submission");
+    const emailBody = encodeURIComponent(
+      `Name: ${name}%0D%0AEmail: ${emailValue}%0D%0AMessage: ${message}`
     );
+    const mailtoUrl = `mailto:shivam6862mau@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+    window.open(mailtoUrl);
     setEmailValue("");
     setName("");
     setMessage("");
-    const newGroupId = await response.json();
-    console.log(newGroupId);
   };
 
   return (

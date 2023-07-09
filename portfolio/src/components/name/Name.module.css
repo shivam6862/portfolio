@@ -5,7 +5,7 @@
   padding: 2rem;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(/name.jpg) no-repeat fixed center/cover;
-  height: 90vh;
+  height: 92vh;
 }
 
 .row {

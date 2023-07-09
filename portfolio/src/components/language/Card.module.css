@@ -5,7 +5,6 @@
   margin: 1rem;
   padding: 1rem;
 }
-
 .popular_books {
   padding: 1rem;
   display: flex;
@@ -14,42 +13,37 @@
   flex-wrap: wrap;
   gap: 2rem;
 }
-
 .rotate {
   perspective: 100rem;
 }
-
 .book_card {
   position: relative;
-  box-shadow: 5px 5px 20px #aaa;
-  max-width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.8s;
+  max-width: 350px;
+  min-height: 350px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-
 .card_header {
-  font-size: 28px;
+  font-size: 1.6rem;
   color: white;
   text-align: center;
-  padding: 1rem;
 }
-
-.card_body {
-  padding: 0.5rem;
-}
-
 .img_fluid {
   width: 100%;
   height: 100%;
   border-radius: 6px;
 }
-
 .card_footer {
-  font-size: 28px;
+  font-size: 1.6rem;
   color: white;
   text-align: center;
-  padding: 1rem;
 }
-
 .back {
   position: absolute;
   top: -100%;
@@ -61,40 +55,36 @@
   pointer-events: none;
   transform: rotateY(180deg);
   transition: top 0.8s, opacity 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-
 .back_content {
   position: absolute;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-
 .rotate:hover .book_card {
   transform: rotateY(180deg);
 }
-
 .rotate:hover .back {
   opacity: 1;
   top: 0;
   user-select: auto;
   pointer-events: auto;
 }
-
 .texting {
-  padding: 1rem 1rem 0.2rem 0.3rem;
-  font-size: 28px;
+  font-size: 1.7rem;
 }
-
 .about {
-  padding: 0.3rem;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
-.button {
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (max-width: 420px) {
   .completecard {
     padding: 0;

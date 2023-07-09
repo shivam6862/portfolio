@@ -4,11 +4,9 @@
   align-items: center;
   margin: 2rem 1rem 2rem 1rem;
 }
-
 .row {
   padding: 1rem;
 }
-
 .tooling {
   display: flex;
   flex-direction: column;
@@ -18,7 +16,6 @@
   align-items: center;
   animation: jackInTheBox 2s ease forwards;
 }
-
 @keyframes jackInTheBox {
   0% {
     opacity: 0;
@@ -37,41 +34,39 @@
     transform: scale(1);
   }
 }
-
 .tooling_box {
-  align-items: center;
-  background: #233554;
-  border-radius: 15px;
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  padding: 0.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 1rem;
 }
-
 .box_content {
   align-items: center;
-  background: #3f5d91;
-  border-radius: 8px;
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
   display: flex;
-  flex: 0 1 18%;
-  height: 60px;
+  flex-wrap: wrap;
+  flex: 0 1 15%;
+  min-height: 50px;
   justify-content: space-evenly;
-  margin: 1%;
+  padding: 1rem;
 }
-
 .box_icon .icon {
-  height: 30px;
-  width: 30px;
+  height: 3rem;
+  width: 3rem;
   border-radius: 4px;
   padding: 2px;
 }
-
-.box-text {
-  font-size: 24px;
-  font-weight: 700;
+.box_text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
   text-transform: capitalize;
 }
-
 @media (max-width: 420px) {
   .row {
     padding: 0;

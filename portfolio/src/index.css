@@ -13,3 +13,7 @@ html {
   padding: 0;
   overflow-x: hidden;
 }
+:root {
+  --primary-color: #1f2833;
+  --secondary-color: #4e4e50;
+}

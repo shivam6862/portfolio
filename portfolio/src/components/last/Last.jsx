@@ -1,12 +1,7 @@
 import React from "react";
-import { useState } from "react";
 import classes from "./Last.module.css";
 
 const Last = () => {
-  const date1 = new Date();
-  const DATE = date1.getFullYear();
-  const [date, setDate] = useState(DATE);
-
   return (
     <div className={classes.last} id="last">
       <div className={classes.container_fluid}>
@@ -45,9 +40,7 @@ const Last = () => {
               </li>
             </ul>
           </div>
-          <p className={classes.copyright}>
-            &copy; Copyright {date}. Made by Shivam Kumar
-          </p>
+          <p className={classes.copyright}>&copy; 2023.. Made by shivam6862</p>
         </div>
       </div>
     </div>
