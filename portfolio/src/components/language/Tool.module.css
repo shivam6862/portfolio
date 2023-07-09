@@ -72,3 +72,8 @@
     padding: 0;
   }
 }
+@media (max-width: 320px) {
+  .tooling_box {
+    justify-content: center;
+  }
+}
