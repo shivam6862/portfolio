@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  padding: 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/background.png") no-repeat fixed center/cover;
 }
 .row {
   padding: 0.1rem 1rem;
@@ -40,6 +42,15 @@
   padding: 0.1rem;
 }
 @media (max-width: 420px) {
+  .language {
+    padding: 0;
+    margin: 0;
+  }
+  .row {
+    padding: 0;
+  }
+}
+@media (max-width: 650px) {
   .language {
     padding: 0;
     margin: 0;

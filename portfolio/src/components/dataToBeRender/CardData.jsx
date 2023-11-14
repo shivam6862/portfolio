@@ -21,7 +21,7 @@ const cards = [
     website: "Github",
     src: "/platfrom/github.png",
     src2: "/platfrom/github1.png",
-    language: "Source code",
+    language: "Download source code",
     webSiteName: "Github",
     userId: "You can view my profile here..",
     websiteLink: "https://github.com/shivam6862",
@@ -33,6 +33,15 @@ const cards = [
     webSiteName: "Codechef",
     userId: "You can view my profile here..",
     websiteLink: "https://www.codechef.com/users/shivam_123kr",
+  },
+  {
+    website: "Kaggle Expert",
+    src: "/platfrom/kaggle.png",
+    src2: "/platfrom/kaggle1.png",
+    language: "Data analytics and machine learning",
+    webSiteName: "Kaggle",
+    userId: "You can view my profile here..",
+    websiteLink: "https://www.kaggle.com/shivam6862",
   },
 ];
 

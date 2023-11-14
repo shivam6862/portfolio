@@ -40,7 +40,6 @@
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
-  background-color: var(--secondary-color);
   border-radius: 1rem;
   padding: 1rem;
 }
@@ -49,30 +48,33 @@
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   flex: 0 1 15%;
   min-height: 50px;
   justify-content: space-evenly;
   padding: 1rem;
+  box-shadow: rgba(141, 134, 134, 0.24) 0px 3px 8px;
+  min-width: 8rem;
 }
 .box_icon .icon {
   height: 3rem;
-  width: 3rem;
-  border-radius: 4px;
   padding: 2px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 .box_text {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #ffffff;
-  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--secondary-color);
+  text-transform: uppercase;
 }
 @media (max-width: 420px) {
   .row {
     padding: 0;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .tooling_box {
     justify-content: center;
   }

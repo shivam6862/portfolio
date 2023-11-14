@@ -1,5 +1,56 @@
 const cards = [
   {
+    website: "Electromagnet motion explorer",
+    src: "/project/new/1.Electromagnet.png",
+    webSiteName:
+      "Electromagnet Motion Explorer is an innovative project aimed at studying pendulum damping motion through LED modeling and the development of a user-friendly desktop application. This project serves as a comprehensive study tool, providing intricate mathematical models, accurate simulations, and the integration of machine learning models for error detection and regression analysis. Explore the fascinating world of electromagnetism and motion damping with this interactive and educational platform.",
+    userId:
+      "Language used: Machine learning, React-native, Nextjs, Electronjs, Electronjs and Ardiuno",
+    websiteLink: "https://github.com/shivam6862/Electromagnetmotion-explorer",
+  },
+  {
+    website: "Fault Tracker",
+    src: "/project/new/2.Fault_Tracker.png",
+    webSiteName:
+      "Fault-Tracker is a comprehensive system developed for managing various aspects of a business related to manufacturing, distribution, and customer service. The project consists of a frontend built with Next.js, a backend powered by Node.js, MongoDB used as the primary database, and integrates Web3 MetaMask for blockchain connectivity for users.",
+    userId:
+      "Language used: Nodejs, Mongodb, Reactjs, Nextjs, Expressjs and Metamask",
+    websiteLink: "https://github.com/shivam6862/Fault-Tracker",
+  },
+  {
+    website: "Kaggle Elite Coder",
+    src: "/project/new/3.kaggle.png",
+    webSiteName:
+      "Welcome to my GitHub repository! Here, you will find my solutions and code for various Kaggle competitions that I have participated in. As a current expert in Kaggle, I have worked extensively on multiple competitions, utilizing advanced techniques in data analysis, machine learning, and deep learning to achieve competitive results. ",
+    userId: "Language used: Machine learning and  Kaggle competition",
+    websiteLink: "https://github.com/shivam6862/Kaggle-Elite-Coder",
+  },
+  {
+    website: "XR Vizion Botsmiths",
+    src: "/project/new/4.Botsmiths.png",
+    webSiteName:
+      "Welcome to our ChatBot application! This application is designed to handle various types of inputs including text, PDF files, and audio files. It processes these inputs and provides responses accordingly. The application also includes features such as user authentication, profile management, and different pages like home, login, signup, and forgot password.",
+    userId:
+      "Language used: Nodejs, Python, Mongodb, Reactjs, Nextjs and Next-auth",
+    websiteLink: "https://github.com/shivam6862/XR-Vizion-Botsmiths",
+  },
+  {
+    website: "StreamTube",
+    src: "/project/new/5.StreamTube.png",
+    webSiteName:
+      "StreamTube is a full-stack web application built using Next.js for the frontend, Node.js for the backend, and MongoDB for the database. This clone mimics the popular video-sharing platform StreamTube, allowing users to explore videos, subscribe to channels, and interact with content similar to the real StreamTube platform. With responsive design and dynamic content loading, it offers a seamless and engaging experience for users to enjoy videos and interact with their favorite channels.",
+    userId: "Language used: Reactjs, Nextjs",
+    websiteLink: "https://github.com/shivam6862/StreamTube",
+  },
+  {
+    website: "IIT ROORKEEE MOTORSPORTS",
+    src: "/project/new/6.iitrms.png",
+    webSiteName:
+      "Experienced NextJs developer skilled in creating dynamic and responsive websites. Developed and launched a professional website for IIT Roorkee Motorsports Club, showcasing strong proficiency in front-end technologies. Proven ability to translate design concepts into user-friendly interfaces, ensuring seamless user experiences and optimal performance",
+    userId: "Language used: Reactjs, Nextjs",
+    websiteLink: "https://github.com/shivam6862/iitrmse",
+  },
+  {
     website: "Resume Builder App",
     src: "/project/1.Resume_Builder.png",
     webSiteName:

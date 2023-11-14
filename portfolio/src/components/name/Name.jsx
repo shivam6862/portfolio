@@ -16,15 +16,18 @@ const Name = () => {
     } else {
       setIndex(0);
       setText("");
-      if (count % 3 == 2) {
+      if (count % 4 == 2) {
         setFullText("Mechanical Engineering");
         setCount(++count);
-      } else if (count % 3 == 0) {
-        setCount(++count);
+      } else if (count % 4 == 0) {
         setFullText("Full Stack Developer");
-      } else {
         setCount(++count);
+      } else if (count % 4 == 1) {
         setFullText("Competitive Programmer");
+        setCount(++count);
+      } else {
+        setFullText("Machine learning enthusiast");
+        setCount(++count);
       }
     }
   }, [index]);

@@ -107,9 +107,9 @@ const Contact = () => {
                 <div className={classes.text_light}>
                   <i
                     className={classes.link}
-                    onClick={() => window.open("https://facebook.com/")}
+                    onClick={() => window.open("https://kaggle.com/shivam6862")}
                   >
-                    Connect by Facebook
+                    Connect by Kaggle
                   </i>
                 </div>
               </div>

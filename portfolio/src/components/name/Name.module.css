@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(/name.jpg) no-repeat fixed center/cover;
-  height: 92vh;
+  background: linear-gradient(rgba(1, 3, 20, 0.1), rgba(58, 59, 74, 0.1)),
+    url(/profile.png) no-repeat fixed center/cover;
+  height: 100vh;
 }
 
 .row {
@@ -40,7 +40,10 @@
   padding-right: 0.3rem;
   border-right: 2px solid white;
 }
-
+.name:first-letter {
+  font-size: 7vw;
+  font-weight: 700;
+}
 .circle {
   content: "  ";
   width: 45px;
@@ -53,7 +56,7 @@
     10px 0 80px #f55;
   position: absolute;
   top: 23%;
-  left: 56%;
+  left: 16%;
 }
 
 @keyframes slide {

@@ -20,6 +20,14 @@ const datas = [
     src: "/Tool/1.png",
   },
   {
+    text: "Kaggle",
+    src: "/Tool/16.png",
+  },
+  {
+    text: "NextJs",
+    src: "/Tool/17.png",
+  },
+  {
     text: "NodeJs",
     src: "/Tool/2.png",
   },
