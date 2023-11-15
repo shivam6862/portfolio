@@ -1,9 +1,9 @@
 const cards = [
   {
-    website: "Electromagnet motion explorer",
+    website: "Electro Magnet motion explorer",
     src: "/project/new/1.Electromagnet.png",
     webSiteName:
-      "Electromagnet Motion Explorer is an innovative project aimed at studying pendulum damping motion through LED modeling and the development of a user-friendly desktop application. This project serves as a comprehensive study tool, providing intricate mathematical models, accurate simulations, and the integration of machine learning models for error detection and regression analysis. Explore the fascinating world of electromagnetism and motion damping with this interactive and educational platform.",
+      "Electromagnet Motion Explorer is an innovative project aimed at studying pendulum damping motion through LED modeling and the development of a user-friendly desktop application. This project serves as a comprehensive study tool, providing intricate mathematical models, accurate simulations, and the integration of machine learning models for error detection and regression analysis.",
     userId:
       "Language used: Machine learning, React-native, Nextjs, Electronjs, Electronjs and Ardiuno",
     websiteLink: "https://github.com/shivam6862/Electromagnetmotion-explorer",
@@ -63,7 +63,7 @@ const cards = [
     website: "Food order App",
     src: "/project/2.Food_order.png",
     webSiteName:
-      "Map My Food is a MERN stack app that showcases nearby restaurants and enables the creation of new ones. Features include authentication, cart, search, support,orders, new restaurant creation, all seamlessly managed with global state management.",
+      "Map My Food is a full-stack food order application built using React for the frontend, Node.js for the backend, and MongoDB for the database. With its responsive design and global state management, it offers a seamless and user-friendly experience for customers to explore and order food from various restaurants.It also offers a unique feature that allows new users to create their own restaurants within the app.",
     userId: "Language used: React, NodeJs and MongoDb.",
     websiteLink: "https://github.com/shivam6862/Map-My-Food",
   },

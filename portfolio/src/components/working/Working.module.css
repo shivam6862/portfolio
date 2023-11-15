@@ -31,78 +31,45 @@
 .work {
   max-width: 350px;
   min-height: 350px;
-  position: relative;
-  overflow: hidden;
   border-radius: 0.4rem;
   padding: 1rem 1.5rem 2rem 1.5rem;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-}
-.book_card {
+  box-shadow: rgba(172, 171, 171, 0.4) 0px 0px 0px 2px,
+    rgba(172, 172, 172, 0.65) 0px 4px 6px -1px,
+    rgba(60, 60, 60, 0.08) 0px 1px 0px inset;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 330px;
   gap: 1.5rem;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+}
+.work > .link_svg {
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: none;
 }
 .work img {
   width: 100%;
   height: 100%;
   border-radius: 6px;
+  cursor: pointer;
+}
+.work:hover .link_svg {
+  display: block;
+  transition: transform 0.3s ease-in;
 }
 .work_info {
   color: #eee;
   letter-spacing: 0.5px;
   font-size: 1.7rem;
   transition: transform 0.3s ease-in;
-}
-.work_body {
-  transition: transform 0.3s ease-in;
-}
-.work:hover .work_info {
-  transform: translateY(-60%);
-}
-.work:hover .work_body {
-  transform: translateY(-20%);
-}
-.overview {
-  background-color: #fff;
-  padding: 2rem;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  max-height: 100%;
-  transform: translateY(101%);
-  overflow-y: auto;
-  transition: transform 0.3s ease-in;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  -moz-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-.work:hover .overview {
-  transform: translateY(0);
-}
-.back_content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.7rem;
-}
-.texting {
-  font-size: 22px;
-}
-.about {
-  font-size: 22px;
-  color: #f65454;
 }
 @media (max-width: 650px) {
   .row {
@@ -115,10 +82,5 @@
   .works {
     padding: 0;
     margin: 0;
-  }
-}
-@media (max-width: 440px) {
-  .texting {
-    font-size: 20px;
   }
 }

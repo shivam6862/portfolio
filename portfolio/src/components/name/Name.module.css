@@ -24,7 +24,7 @@
 .name {
   font-size: 5vw;
   color: white;
-  letter-spacing: 2.2px;
+  letter-spacing: 1px;
   text-shadow: 1px 3px 11px rgb(0 0 0 / 30%);
   font-weight: 600;
   padding-bottom: 2rem;
@@ -33,7 +33,7 @@
 .nameeffect {
   font-size: 5vw;
   color: white;
-  letter-spacing: 2.2px;
+  letter-spacing: 1px;
   text-shadow: 1px 3px 11px rgb(0 0 0 / 30%);
   font-weight: 600;
   height: 7vw;

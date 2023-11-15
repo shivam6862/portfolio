@@ -1,0 +1,109 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/background.png") no-repeat fixed center/cover;
+  border-radius: 10px;
+}
+.box {
+  padding: 2rem;
+  height: 85vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  animation: middle-top 0.5s;
+}
+.box > h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.websiteimage {
+  height: 40vh;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+}
+.websiteimage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+.box > p {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+}
+.box > button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--primary-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+.box > button > a {
+  text-decoration: none;
+  font-weight: 900;
+  color: var(--secondary-color);
+}
+.cross {
+  position: absolute;
+  top: 0;
+  right: 0rem;
+  margin: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+@media (max-width: 950px) {
+  .box {
+    height: 90vh;
+    width: 90vw;
+  }
+  .websiteimage {
+    height: 30vh;
+  }
+}
+@media (max-width: 450px) {
+  .box > h1 {
+    font-size: 1.5rem;
+  }
+  .websiteimage {
+    height: 20vh;
+  }
+}
+@keyframes middle-top {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
