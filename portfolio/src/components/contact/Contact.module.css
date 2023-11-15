@@ -1,6 +1,6 @@
 .contact {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url(/contact.png) no-repeat fixed center/cover;
+    url(/contact.png) no-repeat fixed left/cover;
   display: flex;
   align-items: center;
   justify-content: center;

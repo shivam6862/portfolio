@@ -60,7 +60,7 @@
   border-bottom-left-radius: 5px;
   border-top-right-radius: 5px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/background.png") no-repeat fixed center/cover;
+    url("/background.png") no-repeat fixed left/cover;
 }
 
 .logo img {
@@ -178,7 +178,7 @@
       rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
       rgba(0, 0, 0, 0.09) 0px 32px 16px;
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url("/background.png") no-repeat fixed center/cover;
+      url("/background.png") no-repeat fixed left/cover;
   }
   .navigationmenuexpanded li {
     text-align: center;

@@ -3,7 +3,7 @@
   padding-bottom: 1rem;
   min-height: 10vh;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/contact.png") no-repeat fixed center/cover;
+    url("/contact.png") no-repeat fixed left/cover;
 }
 .container_fluid {
   width: 100%;

@@ -4,7 +4,7 @@
   align-items: center;
   padding: 2rem;
   background: linear-gradient(rgba(1, 3, 20, 0.1), rgba(58, 59, 74, 0.1)),
-    url(/profile.png) no-repeat fixed center/cover;
+    url(/profile.png) no-repeat fixed left/cover;
   height: 100vh;
 }
 
