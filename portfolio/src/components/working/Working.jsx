@@ -16,7 +16,7 @@ const Working = () => {
       )}
       <div className={classes.row}>
         <div className={classes.working}>
-          <div className={classes.heading}>Working</div>
+          <div className={classes.heading}>Projects</div>
           <div className={classes.works}>
             {cards.map((card, index) => (
               <div

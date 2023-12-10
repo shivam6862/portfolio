@@ -35,6 +35,15 @@ const cards = [
     websiteLink: "https://github.com/shivam6862/XR-Vizion-Botsmiths",
   },
   {
+    website: "Smoke Drink Predictor",
+    src: "/project/new/7.Smoke-Drink-Predictor.png",
+    webSiteName:
+      "Smoke-Drink-Predictor, an innovative ML and deep learning-driven solution seamlessly integrated with a user-friendly Next.js frontend and a secure Python-Flask backend. This cutting-edge system accurately predicts smoking and drinking behaviors, enhancing user awareness. Rigorously tested with Cypress for robust performance, it ensures reliability and precision. Empower yourself with real-time insights using this state-of-the-art predictor, where technology meets user-friendly design for a transformative experience.",
+    userId:
+      "Language used: Python, Flask, Machine-learning, Nextjs, Artificial-neural-networks and Cypress ",
+    websiteLink: "https://github.com/shivam6862/Smoke-Drink-Predictor",
+  },
+  {
     website: "StreamTube",
     src: "/project/new/5.StreamTube.png",
     webSiteName:
@@ -84,6 +93,25 @@ const cards = [
     websiteLink: "https://github.com/shivam6862/DSA-Visualizer",
   },
   {
+    website: "Pet Classify Hub",
+    src: "/project/new/8.Pet-Classify-Hub.png",
+    webSiteName:
+      "Pet Classify Hub is an application designed for classifying images of pets, specifically cats and dogs. This project utilizes a user-friendly web interface built with Next.js for the frontend and a backend server powered by Flask. The classification models are implemented using TensorFlow, Convolutional Neural Network (CNN) models.",
+    userId:
+      "Language used: Python, Flask, Machine-learning, Nextjs and Artificial-neural-networks ",
+    websiteLink: "https://github.com/shivam6862/Pet-Classify-Hub",
+  },
+  {
+    website: "Spring Boot app",
+    src: "/project/new/10.Spring-Boot-application.png",
+    webSiteName:
+      "This is a Spring Boot backend application for managing persons. It provides basic CRUD (Create, Read, Update, Delete) operations for a Person entity, JUnit, Mockito Testing",
+    userId:
+      "Language used: Java, Spring boot, Mongodb, Mockito, Junit and Mockito-framework",
+    websiteLink:
+      "https://github.com/shivam6862/SpringBoot-MongoDB-CRUD-Student-JUnit-Mockito",
+  },
+  {
     website: "Epic-Tales App",
     src: "/project/5.Epic-Tales.png",
     webSiteName:
@@ -105,7 +133,7 @@ const cards = [
     webSiteName:
       "A Redux shopping cart app frontend in React is a user interface that displays a list of products available for purchase, allows users to add items to a shopping cart.",
     userId: "Language used: React, redux, nodejs, mongodb and Javascript",
-    websiteLink: "https://github.com/shivam6862/Lottery_Smart_Contract",
+    websiteLink: "https://github.com/shivam6862/CartEase",
   },
   {
     website: "News360 App",
@@ -123,7 +151,23 @@ const cards = [
     userId: "Language used: NodeJs",
     websiteLink: "https://github.com/shivam6862/white_Typer",
   },
-
+  {
+    website: "Selenium scraping app",
+    src: "/project/new/11.selenium-web-scraping-app.png",
+    webSiteName:
+      "I created a Python app using Selenium for web scraping on my portfolio site, automating data extraction and cross-checking. This showcases my expertise in web scraping, automation, and data validation. The project highlights my ability to enhance efficiency and accuracy through programming, emphasizing my commitment to leveraging technology for effective data management.",
+    userId: "Language used: Python and selenium",
+    websiteLink: "https://github.com/shivam6862/selenium-web-scraping-app",
+  },
+  {
+    website: "Digit Recognizer",
+    src: "/project/new/9.Digit-Recognizer.png",
+    webSiteName:
+      "This is a digit recognizer app that utilizes artificial neural networks (ANN) and convolutional neural networks (CNN) for recognizing hand-written digits. The app is built with Next.js for the frontend, Flask for the backend, and includes components for training and testing the models.Digit Recognizer",
+    userId:
+      "Language used: Python, Flask, Machine-learning, Nextjs and Artificial-neural-networks ",
+    websiteLink: "https://github.com/shivam6862/Digit-Recognizer",
+  },
   {
     website: "Almighty Crafters",
     src: "/project/10.almighty.png",

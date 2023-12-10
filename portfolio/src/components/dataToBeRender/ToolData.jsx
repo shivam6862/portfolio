@@ -67,6 +67,54 @@ const datas = [
     text: "Typescript",
     src: "/Tool/14.png",
   },
+  {
+    text: "Electron",
+    src: "/Tool/18.png",
+  },
+  {
+    text: "springboot",
+    src: "/Tool/19.png",
+  },
+  {
+    text: "Ruby",
+    src: "/Tool/20.jpg",
+  },
+  {
+    text: "Go",
+    src: "/Tool/21.png",
+  },
+  {
+    text: "Java",
+    src: "/Tool/22.png",
+  },
+  {
+    text: "Django",
+    src: "/Tool/23.png",
+  },
+  {
+    text: "selenium",
+    src: "/Tool/24.png",
+  },
+  {
+    text: "Flask",
+    src: "/Tool/26.png",
+  },
+  {
+    text: "Postman",
+    src: "/Tool/27.png",
+  },
+  {
+    text: "Junit",
+    src: "/Tool/28.png",
+  },
+  {
+    text: "Mockito",
+    src: "/Tool/29.jpg",
+  },
+  {
+    text: "Cypress",
+    src: "/Tool/30.jpg",
+  },
 ];
 
 export default datas;
