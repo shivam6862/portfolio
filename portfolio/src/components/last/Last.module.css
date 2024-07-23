@@ -2,8 +2,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   min-height: 10vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/contact.png") no-repeat fixed left/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
 }
 .container_fluid {
   width: 100%;
@@ -51,7 +50,7 @@
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .nav {
     gap: 0.3rem;
     font-size: 16px;

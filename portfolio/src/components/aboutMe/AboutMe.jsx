@@ -11,7 +11,10 @@ const AboutMe = () => {
           <div className={classes.details_photo}>
             <div className={classes.details}>
               {texts.map((text, index) => (
-                <p key={index}>{text.text}</p>
+                <p key={index} id={`about_text_${index + 1}`}>
+                  {text.text}
+                  <span></span>
+                </p>
               ))}
             </div>
             <div className={classes.photobox}>

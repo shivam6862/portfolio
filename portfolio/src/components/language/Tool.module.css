@@ -54,7 +54,7 @@
   min-height: 50px;
   justify-content: space-evenly;
   padding: 1rem;
-  box-shadow: rgba(141, 134, 134, 0.24) 0px 3px 8px;
+  box-shadow: rgba(199, 199, 199, 0.24) 0px 3px 4px;
   min-width: 8rem;
 }
 .box_icon .icon {
@@ -66,7 +66,7 @@
 .box_text {
   font-size: 1rem;
   font-weight: 900;
-  color: var(--secondary-color);
+  color: var(--white-color);
   text-transform: uppercase;
 }
 @media (max-width: 420px) {

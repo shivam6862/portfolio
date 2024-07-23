@@ -1,6 +1,6 @@
 const texts = [
   {
-    text: "I am Shivam Kumar, a software developer with a passion for solving complex problems and building elegant solutions. With a LeetCode rating of 1702, I am constantly challenging myself to improve my skills and stay up-to-date with the latest technologies.",
+    text: "I am Shivam Kumar, a software developer with a passion for solving complex problems and building elegant solutions. With a LeetCode rating of 1837, I am constantly challenging myself to improve my skills and stay up-to-date with the latest technologies.",
   },
   {
     text: "I have extensive experience in web development, having built numerous websites using technologies such as HTML, CSS, JavaScript, React, Node.js, Electron.js, MongoDB, Express, Data structures and algorithms, DBMS and C++ . My projects showcase my ability to create dynamic and interactive user experiences, as well as my proficiency in various backend tech stacks.    ",

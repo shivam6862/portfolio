@@ -25,6 +25,7 @@ const Working = () => {
                 onClick={() => {
                   setCard(index);
                 }}
+                id={`projects-${index + 1}`}
               >
                 <div className={classes.link_svg}>
                   <img src="link.svg" alt="link" />

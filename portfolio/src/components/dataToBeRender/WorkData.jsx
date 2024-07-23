@@ -1,5 +1,13 @@
 const cards = [
   {
+    website: "IIT ROORKEEE MOTORSPORTS",
+    src: "/project/new/6.iitrms.png",
+    webSiteName:
+      "Experienced NextJs developer skilled in creating dynamic and responsive websites. Developed and launched a professional website for IIT Roorkee Motorsports Club, showcasing strong proficiency in front-end technologies. Proven ability to translate design concepts into user-friendly interfaces, ensuring seamless user experiences and optimal performance",
+    userId: "Language used: Reactjs, Nextjs",
+    websiteLink: "https://github.com/shivam6862/iitrmse",
+  },
+  {
     website: "Electro Magnet motion explorer",
     src: "/project/new/1.Electromagnet.png",
     webSiteName:
@@ -9,30 +17,13 @@ const cards = [
     websiteLink: "https://github.com/shivam6862/Electromagnetmotion-explorer",
   },
   {
-    website: "Fault Tracker",
-    src: "/project/new/2.Fault_Tracker.png",
+    website: "AI Healthcare Disease Detection",
+    src: "/project/new2/1.Healthcare.png",
     webSiteName:
-      "Fault-Tracker is a comprehensive system developed for managing various aspects of a business related to manufacturing, distribution, and customer service. The project consists of a frontend built with Next.js, a backend powered by Node.js, MongoDB used as the primary database, and integrates Web3 MetaMask for blockchain connectivity for users.",
+      "Driven and experienced healthcare technologist with a passion for leveraging cutting-edge machine learning technologies. Spearheading the development of a ground-breaking web application aimed at early detection and prevention of various diseases including asthma, cancer, diabetes, and stroke. Proficient in predictive modeling and real-time diagnosis, providing users with actionable preventive measures. Skilled in developing conversational AI interfaces, enabling users to engage in meaningful discussions with disease-specialized chatbots",
     userId:
-      "Language used: Nodejs, Mongodb, Reactjs, Nextjs, Expressjs and Metamask",
-    websiteLink: "https://github.com/shivam6862/Fault-Tracker",
-  },
-  {
-    website: "Kaggle Elite Coder",
-    src: "/project/new/3.kaggle.png",
-    webSiteName:
-      "Welcome to my GitHub repository! Here, you will find my solutions and code for various Kaggle competitions that I have participated in. As a current expert in Kaggle, I have worked extensively on multiple competitions, utilizing advanced techniques in data analysis, machine learning, and deep learning to achieve competitive results. ",
-    userId: "Language used: Machine learning and  Kaggle competition",
-    websiteLink: "https://github.com/shivam6862/Kaggle-Elite-Coder",
-  },
-  {
-    website: "XR Vizion Botsmiths",
-    src: "/project/new/4.Botsmiths.png",
-    webSiteName:
-      "Welcome to our ChatBot application! This application is designed to handle various types of inputs including text, PDF files, and audio files. It processes these inputs and provides responses accordingly. The application also includes features such as user authentication, profile management, and different pages like home, login, signup, and forgot password.",
-    userId:
-      "Language used: Nodejs, Python, Mongodb, Reactjs, Nextjs and Next-auth",
-    websiteLink: "https://github.com/shivam6862/XR-Vizion-Botsmiths",
+      "Language used: react, django, nextjs, django-rest-framework, intel, huggingface and llm",
+    websiteLink: "https://github.com/shivam6862/Gen-AI-Hackathon/",
   },
   {
     website: "Smoke Drink Predictor",
@@ -44,22 +35,6 @@ const cards = [
     websiteLink: "https://github.com/shivam6862/Smoke-Drink-Predictor",
   },
   {
-    website: "StreamTube",
-    src: "/project/new/5.StreamTube.png",
-    webSiteName:
-      "StreamTube is a full-stack web application built using Next.js for the frontend, Node.js for the backend, and MongoDB for the database. This clone mimics the popular video-sharing platform StreamTube, allowing users to explore videos, subscribe to channels, and interact with content similar to the real StreamTube platform. With responsive design and dynamic content loading, it offers a seamless and engaging experience for users to enjoy videos and interact with their favorite channels.",
-    userId: "Language used: Reactjs, Nextjs",
-    websiteLink: "https://github.com/shivam6862/StreamTube",
-  },
-  {
-    website: "IIT ROORKEEE MOTORSPORTS",
-    src: "/project/new/6.iitrms.png",
-    webSiteName:
-      "Experienced NextJs developer skilled in creating dynamic and responsive websites. Developed and launched a professional website for IIT Roorkee Motorsports Club, showcasing strong proficiency in front-end technologies. Proven ability to translate design concepts into user-friendly interfaces, ensuring seamless user experiences and optimal performance",
-    userId: "Language used: Reactjs, Nextjs",
-    websiteLink: "https://github.com/shivam6862/iitrmse",
-  },
-  {
     website: "Resume Builder App",
     src: "/project/1.Resume_Builder.png",
     webSiteName:
@@ -67,6 +42,23 @@ const cards = [
     userId:
       "Language used: React, Nextjs, Redux, Typescript, NodeJs and MongoDb.",
     websiteLink: "https://github.com/shivam6862/Resume-Builder-app",
+  },
+  {
+    website: "DigiFreelance Hub",
+    src: "/project/new2/2.DigiFreelance.png",
+    webSiteName:
+      "DigiFreelance-hub redefines freelancing through its innovative decentralized platform, seamlessly integrating Next.js for a dynamic frontend and Solidity for secure smart contracts.This multifaceted approach fosters a collaborative environment where freelancers showcase diverse skills and efficiently undertake tasks. Transparent and secure transactions, powered by Solidity, ensure a trustworthy marketplace. The convergence of technologies creates a user-friendly and inclusive space, fostering talent and efficiency.",
+    userId:
+      "Language used: nodejs, mongodb, reactjs, nextjs, smart-contracts, solidity, react-icons, responsive-web-design and hardhat",
+    websiteLink: "https://github.com/shivam6862/DigiFreelance-hub",
+  },
+  {
+    website: "Kaggle Elite Coder",
+    src: "/project/new/3.kaggle.png",
+    webSiteName:
+      "Welcome to my GitHub repository! Here, you will find my solutions and code for various Kaggle competitions that I have participated in. As a current expert in Kaggle, I have worked extensively on multiple competitions, utilizing advanced techniques in data analysis, machine learning, and deep learning to achieve competitive results. ",
+    userId: "Language used: Machine learning and  Kaggle competition",
+    websiteLink: "https://github.com/shivam6862/Kaggle-Elite-Coder",
   },
   {
     website: "Food order App",
@@ -85,12 +77,75 @@ const cards = [
     websiteLink: "https://github.com/shivam6862/Quiz-App",
   },
   {
+    website: "Fault Tracker",
+    src: "/project/new/2.Fault_Tracker.png",
+    webSiteName:
+      "Fault-Tracker is a comprehensive system developed for managing various aspects of a business related to manufacturing, distribution, and customer service. The project consists of a frontend built with Next.js, a backend powered by Node.js, MongoDB used as the primary database, and integrates Web3 MetaMask for blockchain connectivity for users.",
+    userId:
+      "Language used: Nodejs, Mongodb, Reactjs, Nextjs, Expressjs and Metamask",
+    websiteLink: "https://github.com/shivam6862/Fault-Tracker",
+  },
+  {
+    website: "XR Vizion Botsmiths",
+    src: "/project/new/4.Botsmiths.png",
+    webSiteName:
+      "Welcome to our ChatBot application! This application is designed to handle various types of inputs including text, PDF files, and audio files. It processes these inputs and provides responses accordingly. The application also includes features such as user authentication, profile management, and different pages like home, login, signup, and forgot password.",
+    userId:
+      "Language used: Nodejs, Python, Mongodb, Reactjs, Nextjs and Next-auth",
+    websiteLink: "https://github.com/shivam6862/XR-Vizion-Botsmiths",
+  },
+  {
     website: "DSA Visualizer App",
     src: "/project/4.DSA.png",
     webSiteName:
       "It contains various algorithms related to sorting, graphs, trees, and General problems. The project provides a visual interface to help users better understand how these algorithms work.",
     userId: "Language used: React and Javascript",
     websiteLink: "https://github.com/shivam6862/DSA-Visualizer",
+  },
+  {
+    website: "DappHack",
+    src: "/project/new2/3.DappHack.png",
+    webSiteName:
+      "Led the transformation of DappHack, a Web3 Hackathon Portal, by upgrading to Viem and Wagmi from ethers for frontend integration and seamless backend API integration for project and team models. Pioneered frontend enhancements, including implementing backend APIs, ensuring active links, fixing sidebar issues, and crafting project and timeline components. Demonstrated a versatile skill set in both backend and frontend development for a comprehensive platform overhaul",
+    userId:
+      "Language used: nodejs, mongodb, reactjs, nextjs, smart-contracts, solidity, react-icons, responsive-web-design and hardhat",
+    websiteLink: "https://github.com/shivam6862/DappHack",
+  },
+  {
+    website: "CPU Scheduling Algorithms",
+    src: "/project/new2/4.Scheduling.png",
+    webSiteName:
+      "Developed an interactive CPU Scheduling Algorithms simulation tool to aid understanding of First Come First Serve, Shortest Job First, Round Robin, and Priority Scheduling algorithms. Utilized React for a responsive frontend, Flask for backend simulations, TypeScript for data handling to ensure type safety and maintainability, and implemented the CPU scheduling algorithms in C++, executed via Python subprocesses for optimal performance.",
+    userId:
+      "Language used: react, flask, typescript, c++, python, subprocess, and cpu-scheduling-algorithms",
+    websiteLink: "https://github.com/shivam6862/cpu-scheduling-algorithms",
+  },
+  {
+    website: "Language Translation App",
+    src: "/project/new2/5.Language.png",
+    webSiteName:
+      "Led the development of an innovative language translation workflow, harnessing the power of Next.js for dynamic frontend interactions, Django for robust backend infrastructure, and Google genai-api for cutting-edge language translation capabilities. Orchestrated the creation of an extensive dictionary of potential headings, implemented intelligent filtering algorithms, and devised a systematic approach for extracting meaningful sub-headings. Seamlessly integrated text translation, resulting in a notable enhancement of translation accuracy and readability, Achieved the prestigious recognition of first runner-up in the SLB Hackathon..",
+    userId:
+      "Language used: nextjs, django, google-genai-api, react-icons, responsive-web-design and llm",
+    websiteLink: "https://github.com/shivam6862/SLB-Hackathon",
+  },
+  {
+    website: "Agent Home",
+    src: "/project/new2/6.Agent.png",
+    webSiteName:
+      "Implemented the Smart Room Automation System, employing Fetch.ai uAgents to create intelligent agents facilitating seamless control of room appliances. Orchestrated integration of lights, air conditioners, and windows into a centralized control system, enabling users to issue cohesive instructions for simultaneous device management.",
+    userId:
+      "Language used: fetchai, uagents, smart-room-automation-system, and fetchai-uagents",
+    websiteLink:
+      "https://github.com/Sar2580P/uAgents/tree/agent_home_cognizance/integrations/agent-home",
+  },
+  {
+    website: "StreamTube",
+    src: "/project/new/5.StreamTube.png",
+    webSiteName:
+      "StreamTube is a full-stack web application built using Next.js for the frontend, Node.js for the backend, and MongoDB for the database. This clone mimics the popular video-sharing platform StreamTube, allowing users to explore videos, subscribe to channels, and interact with content similar to the real StreamTube platform. With responsive design and dynamic content loading, it offers a seamless and engaging experience for users to enjoy videos and interact with their favorite channels.",
+    userId: "Language used: Reactjs, Nextjs",
+    websiteLink: "https://github.com/shivam6862/StreamTube",
   },
   {
     website: "Pet Classify Hub",
@@ -100,16 +155,6 @@ const cards = [
     userId:
       "Language used: Python, Flask, Machine-learning, Nextjs and Artificial-neural-networks ",
     websiteLink: "https://github.com/shivam6862/Pet-Classify-Hub",
-  },
-  {
-    website: "Spring Boot app",
-    src: "/project/new/10.Spring-Boot-application.png",
-    webSiteName:
-      "This is a Spring Boot backend application for managing persons. It provides basic CRUD (Create, Read, Update, Delete) operations for a Person entity, JUnit, Mockito Testing",
-    userId:
-      "Language used: Java, Spring boot, Mongodb, Mockito, Junit and Mockito-framework",
-    websiteLink:
-      "https://github.com/shivam6862/SpringBoot-MongoDB-CRUD-Student-JUnit-Mockito",
   },
   {
     website: "Epic-Tales App",
@@ -169,20 +214,30 @@ const cards = [
     websiteLink: "https://github.com/shivam6862/Digit-Recognizer",
   },
   {
+    website: "Cut Fruit",
+    src: "/project/11.game.png",
+    webSiteName:
+      "This is a simple fruit cutting game that users can come and play for fun",
+    userId: "Language used: Html, Css and Jquery",
+    websiteLink: "https://github.com/shivam6862/Slice-Fruit",
+  },
+  {
+    website: "Spring Boot app",
+    src: "/project/new/10.Spring-Boot-application.png",
+    webSiteName:
+      "This is a Spring Boot backend application for managing persons. It provides basic CRUD (Create, Read, Update, Delete) operations for a Person entity, JUnit, Mockito Testing",
+    userId:
+      "Language used: Java, Spring boot, Mongodb, Mockito, Junit and Mockito-framework",
+    websiteLink:
+      "https://github.com/shivam6862/SpringBoot-MongoDB-CRUD-Student-JUnit-Mockito",
+  },
+  {
     website: "Almighty Crafters",
     src: "/project/10.almighty.png",
     webSiteName:
       "This web app is a showcase of digital arts made from designers of budding startup Almighty Crafters",
     userId: "Language used: React",
     websiteLink: "https://github.com/shivam6862/AlmightyCrafters.github.io",
-  },
-  {
-    website: "Cut Fruit",
-    src: "/project/11.game.png",
-    webSiteName:
-      "This is a simple fruit cutting game that users can come and play for fun",
-    userId: "Language used: Html, Css and Jquery",
-    websiteLink: "https://github.com/shivam6862/shivam6862.github.io",
   },
 ];
 

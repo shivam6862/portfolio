@@ -18,8 +18,9 @@ html {
   overflow-x: hidden;
 }
 :root {
-  --primary-color: #010314;
-  --secondary-color: #3a3b4a;
+  --primary-color: #404040;
+  --secondary-color: #787878;
+  --white-color: #f9f9f9;
 }
 ::-webkit-scrollbar {
   display: none;

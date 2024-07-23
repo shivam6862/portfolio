@@ -3,8 +3,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background: linear-gradient(rgba(1, 3, 20, 0.1), rgba(58, 59, 74, 0.1)),
-    url(/profile.png) no-repeat fixed left/cover;
+  background: linear-gradient(rgba(1, 3, 20, 0.1), rgba(58, 59, 74, 0.1));
   height: 100vh;
 }
 
@@ -44,6 +43,15 @@
   font-size: 7vw;
   font-weight: 700;
 }
+
+.box > p {
+  font-size: 1.1rem;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  max-width: 70vw;
+}
+
 .circle {
   content: "  ";
   width: 45px;
@@ -55,8 +63,8 @@
     inset -20px 0 300px #e3ff4b, 0 0 50px #fff, -10px 0 100px #fbff00,
     10px 0 80px #f55;
   position: absolute;
-  top: 23%;
-  left: 16%;
+  top: 18%;
+  left: 30%;
 }
 
 @keyframes slide {
@@ -97,11 +105,24 @@
   }
 }
 
+@media (max-width: 920px) {
+  .box > p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 620px) {
+  .box > p {
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 330px) {
   .name {
     font-size: 4vw;
   }
   .nameeffect {
     font-size: 4vw;
+  }
+  .box > p {
+    font-size: 0.7rem;
   }
 }

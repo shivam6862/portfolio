@@ -40,7 +40,7 @@ const Last = () => {
               </li>
             </ul>
           </div>
-          <p className={classes.copyright}>&copy; 2023.. Made by shivam6862</p>
+          <p className={classes.copyright}>&copy; 2024.. Made by shivam6862</p>
         </div>
       </div>
     </div>

@@ -39,6 +39,20 @@ const Name = () => {
           <div className={classes.circle}></div>
           <div className={classes.name}>Hi ! I'm Shivam Kumar</div>
           <div className={classes.nameeffect}>{text}</div>
+          <p>
+            LeetCode, Kaggle Expert, and GitHub Maestro, I am an enthusiastic
+            problem solver with a passion for collaborative innovation in tech.
+            With over 50+ repos, I demonstrate proficiency in data science and
+            am recognized as a Kaggle Expert, actively contributing to the
+            Kaggle Notebook. Beyond data science, I am also a skilled web
+            developer with expertise in frontend technologies such as Next.js
+            and React, as well as backend technologies including Node.js and
+            Django. My commitment to continuous learning and tackling challenges
+            drives me to excel in both data-driven solutions and web development
+            projects. I thrive in dynamic environments where creativity and
+            teamwork are valued, eager to contribute to transformative projects
+            in the ever-evolving tech industry.
+          </p>
         </div>
       </div>
     </div>
