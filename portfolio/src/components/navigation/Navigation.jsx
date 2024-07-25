@@ -74,13 +74,13 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#name"
+                href="#Intro"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
-                Name
+                Intro
               </a>
             </li>
             <li>
@@ -107,13 +107,13 @@ const Navigation = () => {
             </li>
             <li>
               <a
-                href="#work"
+                href="#Projects"
                 className={classes.active}
                 onClick={() => {
                   setIsNavExpanded(false);
                 }}
               >
-                Work
+                Projects
               </a>
             </li>
             <li>

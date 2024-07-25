@@ -115,6 +115,18 @@ const datas = [
     text: "Cypress",
     src: "/Tool/30.jpg",
   },
+  {
+    text: "Dockers",
+    src: "/Tool/31.jpg",
+  },
+  {
+    text: "Flutter",
+    src: "/Tool/32.jpg",
+  },
+  {
+    text: "Streamlit",
+    src: "/Tool/33.jpg",
+  },
 ];
 
 export default datas;

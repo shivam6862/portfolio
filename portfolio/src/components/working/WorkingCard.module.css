@@ -6,6 +6,7 @@
   height: 100vh;
   background-color: rgba(56, 56, 56, 0.75);
   z-index: 10;
+  backdrop-filter: blur(30px);
 }
 .container {
   display: flex;
@@ -30,6 +31,7 @@
   justify-content: flex-start;
   gap: 1rem;
   animation: middle-top 0.5s;
+  overflow-y: scroll;
 }
 .box > h1 {
   padding: 0;

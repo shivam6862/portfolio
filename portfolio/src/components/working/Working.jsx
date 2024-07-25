@@ -10,7 +10,7 @@ const Working = () => {
     setCard(-1);
   };
   return (
-    <div className={classes.col} id="work">
+    <div className={classes.col} id="Projects">
       {card !== -1 && (
         <WorkingCard data={cards[card]} setCard={handleSetCard} />
       )}
@@ -34,7 +34,7 @@ const Working = () => {
                 <img
                   src={card.src}
                   className={classes.img_fluid}
-                  alt="work_image"
+                  alt="Projects_image"
                 />
               </div>
             ))}

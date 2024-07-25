@@ -33,7 +33,7 @@ const Name = () => {
   }, [index]);
 
   return (
-    <div className={classes.col} id="name">
+    <div className={classes.col} id="Intro">
       <div className={classes.row}>
         <div className={classes.box}>
           <div className={classes.circle}></div>

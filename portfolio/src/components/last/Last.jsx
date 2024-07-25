@@ -9,8 +9,8 @@ const Last = () => {
           <div className={classes.col}>
             <ul className={classes.nav}>
               <li className={classes.nav_item}>
-                <a className={classes.nav_link} href="#name">
-                  Name
+                <a className={classes.nav_link} href="#Intro">
+                  Intro
                 </a>
               </li>
               <li className={classes.nav_item}>
@@ -29,8 +29,8 @@ const Last = () => {
                 </a>
               </li>
               <li className={classes.nav_item}>
-                <a className={classes.nav_link} href="#work">
-                  Work
+                <a className={classes.nav_link} href="#Projects">
+                  Projects
                 </a>
               </li>
               <li className={classes.nav_item}>
