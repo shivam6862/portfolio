@@ -19,23 +19,25 @@ const Working = () => {
           <div className={classes.heading}>Projects</div>
           <div className={classes.works}>
             {cards.map((card, index) => (
-              <div
-                key={index}
-                className={classes.work}
-                onClick={() => {
-                  setCard(index);
-                }}
-                id={`projects-${index + 1}`}
-              >
-                <div className={classes.link_svg}>
-                  <img src="link.svg" alt="link" />
+              <div className={classes.zoomOutAnimation} key={index}>
+                <div
+                  key={index}
+                  className={classes.work}
+                  onClick={() => {
+                    setCard(index);
+                  }}
+                  id={`projects-${index + 1}`}
+                >
+                  <div className={classes.link_svg}>
+                    <img src="link.svg" alt="link" />
+                  </div>
+                  <div className={classes.work_info}>{card.website}</div>
+                  <img
+                    src={card.src}
+                    className={classes.img_fluid}
+                    alt="Projects_image"
+                  />
                 </div>
-                <div className={classes.work_info}>{card.website}</div>
-                <img
-                  src={card.src}
-                  className={classes.img_fluid}
-                  alt="Projects_image"
-                />
               </div>
             ))}
           </div>

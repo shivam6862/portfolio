@@ -67,6 +67,18 @@
   margin: 0;
   padding-left: 1rem;
   color: white;
+  animation: translateRight 1s cubic-bezier(0.42, 0, 0.58, 1) both;
+  animation-timeline: view(90% 0%);
+}
+@keyframes translateRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-4%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .photobox {
   display: flex;
@@ -81,6 +93,18 @@
   border-radius: 12px;
   padding: 0.75rem;
   border: 2px solid white;
+  animation: Zoomout 0.6s cubic-bezier(0.42, 0, 0.58, 1) both;
+  animation-timeline: view(90% 0%);
+}
+@keyframes Zoomout {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 .photo img {
   border-radius: 12px;

@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import classes from "./Name.module.css";
+import CanvasBackground from "./CanvasBackground";
 
 const Name = () => {
   const [text, setText] = useState("");
@@ -55,6 +56,7 @@ const Name = () => {
           </p>
         </div>
       </div>
+      <CanvasBackground />
     </div>
   );
 };

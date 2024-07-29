@@ -20,10 +20,34 @@
 .col_1 {
   flex: 6;
   min-height: 100%;
+  animation: translateLeft 1s cubic-bezier(0.42, 0, 0.58, 1) both;
+  animation-timeline: view(90% 0%);
+}
+@keyframes translateLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(4%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .col_2 {
   flex: 6;
   border-radius: 10px;
+  animation: translateRight 1s cubic-bezier(0.42, 0, 0.58, 1) both;
+  animation-timeline: view(90% 0%);
+}
+@keyframes translateRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-4%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 .items_wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));

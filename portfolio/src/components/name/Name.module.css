@@ -5,10 +5,12 @@
   padding: 2rem;
   background: linear-gradient(rgba(1, 3, 20, 0.1), rgba(58, 59, 74, 0.1));
   height: 100vh;
+  position: relative;
 }
 
 .row {
   padding: 1rem;
+  z-index: 1;
 }
 
 .box {
